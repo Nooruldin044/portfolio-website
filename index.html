@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noor ul Din - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">Noor ul Din</span>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-controls">
+          <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="greeting">Hello, I'm</span>
+              <span class="name">Noor ul Din</span>
+            </h1>
+            <p class="hero-subtitle">
+              <span class="typing-text"></span>
+              <span class="cursor">|</span>
+            </p>
+            <p class="hero-description">
+              Passionate full-stack developer crafting digital experiences with
+              modern technologies and clean code.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+              <a href="cv/NoorCV.pdf" download class="btn btn-accent">
+                <i class="fas fa-download"></i> Download CV
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-card">
+              <div class="profile-img">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="floating-elements">
+                <div class="floating-element" style="--delay: 0s">
+                  <i class="fab fa-react"></i>
+                </div>
+                <div class="floating-element" style="--delay: 1s">
+                  <i class="fab fa-node-js"></i>
+                </div>
+                <div class="floating-element" style="--delay: 2s">
+                  <i class="fab fa-js-square"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-description">
+              I'm a passionate full-stack web developer with a love for creating
+              innovative digital solutions. With expertise in both frontend and
+              backend technologies, I bring ideas to life through clean,
+              efficient code and intuitive user experiences.
+            </p>
+            <p class="about-description">
+              My journey in web development started with curiosity and has
+              evolved into a career dedicated to continuous learning and pushing
+              the boundaries of what's possible on the web.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number">10</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">1+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Client Satisfaction</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="about-img-container">
+              <div class="about-img">
+                <i class="fa-solid fa-code"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-subtitle">Technologies I work with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="category-title">Frontend</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <i class="fab fa-html5"></i><span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-css3-alt"></i><span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js-square"></i><span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-react"></i><span>React</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="category-title">Backend</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <i class="fab fa-node-js"></i><span>Node.js</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-database"></i><span>MongoDB</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-server"></i><span>Express.js</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="category-title">Tools</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <i class="fab fa-git-alt"></i><span>Git</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-code-branch"></i><span>GitHub</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-terminal"></i><span>VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Some of my recent work</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="images/password-generator.png"
+                alt="Password Generator Project"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Password Generator! 🔐</h3>
+              <p class="project-description">
+                A full-featured Password Generator application that allows users
+                to create secure and customizable passwords with various options
+                and criteria.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Context API</span>
+                <span class="tech-tag">TailwindCss</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://noorpasswordgenerator.netlify.app/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a
+                  href="https://github.com/Nooruldin044/Random-Password-Generator"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/task-manager.png" alt="Task Management App" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Task Management App</h3>
+              <p class="project-description">
+                A collaborative task management application with HTML, CSS, and
+                JavaScript.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://taskmanagementnoor.netlify.app/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a
+                  href="https://github.com/Nooruldin044/Task-Management-app"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/qr-generator.png" alt="QR Code Generator" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">QR Code Generator</h3>
+              <p class="project-description">
+                A comprehensive and simple web app to generate QR codes
+                instantly from any text or URL.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://qrcodegeneratornoor.netlify.app/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a
+                  href="https://github.com/Nooruldin044/QR-CODE_GENERATOR"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/todo-app.png" alt="Todo App" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Todo App</h3>
+              <p class="project-description">
+                Todo App using React.js, Context API, TailwindCSS, and
+                LocalStorage.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">TailwindCSS</span>
+                <span class="tech-tag">Context API</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://todocontextnoor.netlify.app/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a
+                  href="https://github.com/Nooruldin044/Todo-Context/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/image-gallery.png" alt="React Image Gallery" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">🌄 React Image Gallery</h3>
+              <p class="project-description">
+                A modern React-based Image Gallery App that lets users search
+                and explore beautiful stock photos from the Pixabay API.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">TailwindCSS</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://imagegallerynoor.netlify.app/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a
+                  href="https://github.com/Nooruldin044/React-image-gallery/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Let's work together</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's discuss your project</h3>
+            <p>
+              I'm always interested in new opportunities and exciting projects.
+              Whether you have a question or just want to say hi, feel free to
+              reach out!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:nooruldinlund044@gmail.com"
+                  >nooruldinlund044@gmail.com</a
+                >
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+923421956612">+92 342 1956612</a>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i> <span>Badin</span>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/noor-ul-din-250225260/"
+                class="social-link"
+                target="_blank"
+                >Linkedin<i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/Nooruldin044/"
+                target="_blank"
+                class="social-link"
+                >Github<i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
